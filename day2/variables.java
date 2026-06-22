@@ -1,10 +1,13 @@
 package day2;
 
-public class variables{
+public class variables {
+
     public static void main(String[] args) {
-        // variables and data type 
+
+        // Primitive data types demonstration
+
         byte a = 1;
-        short b= 100;
+        short b = 100;
         char c = 'H';
         boolean d = true;
         int e = 1000000;
@@ -12,6 +15,7 @@ public class variables{
         float g = 10.21f;
         double h = 123.432324d;
 
+        // Printing all variables
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
@@ -20,12 +24,12 @@ public class variables{
         System.out.println(f);
         System.out.println(g);
         System.out.println(h);
-        
-        //sum
+
+        // Simple arithmetic operations
         int sum = a + b;
-        f += e;  
+        f += e;
+
         System.out.println(sum);
         System.out.println(f);
-        
     }
 }
