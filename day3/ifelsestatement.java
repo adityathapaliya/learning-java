@@ -36,7 +36,7 @@ public class ifelsestatement {
         } else if (number == 2){
             System.out.println("Hello");
         }else if (number == 3) {
-            System.out.println("H1ola");
+            System.out.println("Hola");
         }else   {
             System.out.println("The value is invalid");
         }
