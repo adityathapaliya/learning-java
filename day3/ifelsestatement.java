@@ -41,6 +41,8 @@ public class ifelsestatement {
             System.out.println("The value is invalid");
         }
 
+         sc.close();
+
 
     }
 }
