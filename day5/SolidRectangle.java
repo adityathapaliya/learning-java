@@ -1,12 +1,14 @@
 package day5;
 
-public class PatternbasedQuestions {
+public class SolidRectangle {
 
     public static void main(String[] args) {
-        //Solid Rectangle
+
+        // Number of rows and columns
         int n = 4;
         int m = 5;
 
+        // Print a solid rectangle
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= m; j++) {
                 System.out.print("* ");
@@ -15,4 +17,3 @@ public class PatternbasedQuestions {
         }
     }
 }
-
